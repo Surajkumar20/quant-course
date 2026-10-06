@@ -1,0 +1,6 @@
+# Projects CI should test, one path per line.
+# Add a project here once it meets the Definition of Done (see RULES.md).
+# Lines starting with '#' are ignored.
+#
+# Example:
+# 01-foundations/p01-monte-carlo-probability

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# C++ / CMake
+build/
+cmake-build-*/
+out/
+compile_commands.json
+*.o
+*.obj
+*.exe
+*.a
+*.lib
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data you generate (keep the repo small; commit generators, not outputs)
+*.bin
+*.parquet
+data/generated/

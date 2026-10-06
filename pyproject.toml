@@ -1,0 +1,11 @@
+[project]
+name = "quant-course"
+version = "0.1.0"
+description = "Project-based self-study path to quant finance, built on MIT OpenCourseWare."
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0", "scipy>=1.11", "pandas>=2.1", "matplotlib>=3.8", "pytest>=8.0"]
+
+[tool.pytest.ini_options]
+# importlib mode lets every project have its own tests/ folder without name clashes.
+addopts = "--import-mode=importlib"
+testpaths = ["00-precourse", "01-foundations", "02-derivatives-pricing", "04-alpha-research", "05-market-making"]
